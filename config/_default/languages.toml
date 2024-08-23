@@ -5,8 +5,14 @@ languageCode = "es-es"
 contentDir = "content/spanish"
 weight = 1
 
+[val]
+languageName = "Val"
+languageCode = "ca-es"
+contentDir = "content/catalan"
+weight = 2
+
 [en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 2
+weight = 3
