@@ -1,0 +1,54 @@
+# Hugo default output directory
+/public
+
+# Hugo generated files
+/resources/_gen
+
+# Node modules
+node_modules/
+
+# Hugo's generated stats file
+hugo_stats.json
+
+# macOS system files
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Environment variables
+.env
+
+# Hugo's cache
+.hugo_build.lock
+
+# Tailwind CSS generated files
+/assets/css/style.css
+
+# PostCSS generated files
+/assets/css/postcss.css
+
+# Ignore cache directories
+.cache/
+
+# Ignore dist directory (if you're using it for builds)
+/dist/
+
+# Ignore any local configuration files
+config.local.toml
