@@ -1,53 +1,55 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Soluciones de software sin ánimo de lucro para Protectoras de Animales"
+  content: "Hackapet es un proyecto gratuito y de código abierto que desarrolla soluciones de software para optimizar las operaciones de refugios de animales y facilitar las adopciones de mascotas."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Únete al Proyecto"
+    link: "contacto"
 
-# Features
+
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "Lo que Ofrece Hackapet"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Hackapet proporciona un conjunto completo de herramientas diseñadas para apoyar a los refugios de animales en sus operaciones diarias y procesos de adopción."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Sistema de gestión de refugios para un mantenimiento eficiente de registros"
+      - "Plataforma de adopción en línea para conectar mascotas con posibles adoptantes"
+      - "Herramientas de seguimiento post-adopción para garantizar el bienestar animal"
+      - "Interfaz compatible con dispositivos móviles para acceso en cualquier momento"
+      - "**Código libre y gratuito** para que todos los refugios de animales lo usen y personalicen"
     button:
       enable: false
-      label: "Get Started Now"
+      label: "Más Información"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+
+  - title: "Un Proyecto Altruista para el Bienestar Animal"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Hackapet es un proyecto sin ánimo de lucro, desarrollado en colaboración directa con protectoras de animales de Torrente y Valencia, enfocado en mejorar la vida de los animales y facilitar la labor de los refugios:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Desarrollado de forma altruista por voluntarios apasionados por la tecnología y el bienestar animal"
+      - "Diseñado en estrecha colaboración con protectoras locales para abordar sus necesidades reales"
+      - "Totalmente gratuito y de código abierto, permitiendo su uso y adaptación por cualquier refugio"
+      - "Centrado en la eficiencia para que los refugios puedan dedicar más tiempo al cuidado animal"
+      - "Evoluciona constantemente gracias al feedback de las protectoras y la comunidad"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Conoce Más"
+      link: "sobre-nosotros"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "Impacto Real en la Comunidad"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Hackapet nace del compromiso de mejorar la vida de los animales en refugios, trabajando mano a mano con protectoras de Torrente y Valencia."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Creado por y para la comunidad de protección animal, sin fines comerciales"
+      - "Adaptado a las necesidades específicas de los refugios locales de Torrente y Valencia"
+      - "Facilita la conexión entre animales y adoptantes, aumentando las posibilidades de adopción"
+      - "Reduce la carga administrativa de los refugios, permitiendo más atención directa a los animales"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Únete a Nuestra Causa"
+      link: "colabora"
 ---

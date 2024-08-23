@@ -1,53 +1,53 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Non-profit Software Solutions for Animal Shelters"
+  content: "Hackapet is a free and open-source project developing software solutions to optimize animal shelter operations and facilitate pet adoptions."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Join the Project"
+    link: "contact"
 
-# Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "What Hackapet Offers"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Hackapet provides a comprehensive set of tools designed to support animal shelters in their daily operations and adoption processes."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Shelter management system for efficient record-keeping"
+      - "Online adoption platform to connect pets with potential adopters"
+      - "Post-adoption monitoring tools to ensure animal welfare"
+      - "Mobile-friendly interface for access anytime, anywhere"
+      - "**Free and open-source code** for all animal shelters to use and customize"
     button:
       enable: false
-      label: "Get Started Now"
+      label: "More Information"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "An Altruistic Project for Animal Welfare"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Hackapet is a non-profit project, developed in direct collaboration with animal shelters in Torrente and Valencia, focused on improving the lives of animals and facilitating the work of shelters:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Developed altruistically by volunteers passionate about technology and animal welfare"
+      - "Designed in close collaboration with local shelters to address their real needs"
+      - "Completely free and open-source, allowing use and adaptation by any shelter"
+      - "Focused on efficiency so shelters can dedicate more time to animal care"
+      - "Constantly evolving thanks to feedback from shelters and the community"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Learn More"
+      link: "about-us"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "Real Impact on the Community"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Hackapet was born from the commitment to improve the lives of animals in shelters, working hand in hand with animal protection organizations in Torrente and Valencia."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Created by and for the animal protection community, without commercial purposes"
+      - "Adapted to the specific needs of local shelters in Torrente and Valencia"
+      - "Facilitates the connection between animals and adopters, increasing adoption possibilities"
+      - "Reduces the administrative burden on shelters, allowing more direct attention to animals"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Join Our Cause"
+      link: "collaborate"
 ---

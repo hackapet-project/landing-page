@@ -19,8 +19,8 @@ theme_switcher = true
 theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
-# contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+# contacto form action
+contact_form_action = "#" # contacto form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
@@ -28,6 +28,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 custom_script = ""
 # copyright
 copyright = "GPL work by [Hackapet.](https://hackapet.com) Based on MIT template by [Zeon Studio.](https://zeon.studio) Open source."
+
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -98,7 +99,6 @@ js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
 ######################## sidebar widgets #########################
 [widgets]
 sidebar = ["categories", "tags"]
-
 
 # google map
 [google_map]
