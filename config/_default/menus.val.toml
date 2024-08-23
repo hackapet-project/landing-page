@@ -9,10 +9,10 @@ name = "Sobre Nosaltres"
 pageRef = "sobre-nosaltres"
 weight = 2
 
-[[main]]
-name = "Blog"
-pageRef = "blog"
-weight = 3
+#[[main]]
+#name = "Blog"
+#pageRef = "blog"
+#weight = 3
 
 # menú del peu de pàgina
 [[footer]]

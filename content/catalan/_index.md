@@ -5,7 +5,7 @@ banner:
   content: "Hackapet és un projecte gratuït i de codi obert que desenvolupa solucions de programari per a optimitzar les operacions dels refugis d'animals i facilitar les adopcions de mascotes."
   image: "/images/banner.png"
   button:
-    enable: true
+    enable: false
     label: "Uneix-te al Projecte"
     link: "contacte"
 
@@ -38,7 +38,7 @@ features:
     button:
       enable: true
       label: "Coneix Més"
-      link: "sobre-nosaltres"
+      link: "/val/sobre-nosaltres"
 
   - title: "Impacte Real en la Comunitat"
     image: "/images/service-3.png"
@@ -51,5 +51,18 @@ features:
     button:
       enable: true
       label: "Uneix-te a la Nostra Causa"
-      link: "col·labora"
+      link: "/val/colabora"
+
+  - title: "Col·laboracions i Suport"
+    image: "/images/sponsors.png"
+    content: "Hackapet es desenvolupa gràcies a la col·laboració amb [ADAT - Associació de Defensa Animal de Torrent](https://adat.protecms.com/) i [SOS Peludetes](https://www.facebook.com/p/Sos-Peludetes-Protectora-de-animals-100079284439979/) de Torrent (pots fer clic en els noms i t'enllaçarà al seu lloc web) i el suport de [Hackerspace València](https://hackvlc.es), que ens proporciona l'espai, les eines i altres recursos necessaris per complir la nostra missió."
+    bulletpoints:
+      - "Impulsat per i per a la comunitat de protecció animal, sense ànim de lucre"
+      - "Adaptat a les necessitats particulars dels refugis locals"
+      - "Gràcies als refugis locals que ens han ajudat amb el seu valuós temps i esforç per poder començar a desenvolupar aquestes plataformes."
+    button:
+      enable: false
+      label: "Uneix-te a la nostra Causa"
+      link: "/val/colabora"
+
 ---

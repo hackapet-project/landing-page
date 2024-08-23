@@ -1,9 +1,15 @@
 ---
-title: "Hey, I am John Doe!"
+title: "About Us and the Project"
 meta_title: "About"
-description: "this is meta description"
+description: "What is behind Hackapet?"
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+# The Team
+
+We are a diverse team of developers, managers, designers, and passionate volunteers, united by the goal of improving the lives of animals in shelters and facilitating their adoption. Our mission is to help animal shelters optimize their processes, making adoption easier and enhancing the well-being of pets. Through Hackapet, we aim not only to contribute to a noble cause but also to learn and grow together as a community.
+
+# The Members
+
+TBD the names of the members and their social networks, for those who authorize it.
