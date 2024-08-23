@@ -2,16 +2,16 @@
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo.png"
-logo_darkmode = "images/logo-darkmode.png"
+logo = "images/logo.svg"
+logo_darkmode = "images/logo-darkmode.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "160px"
-logo_height = "32px"
+logo_width = "157px"
+logo_height = "157px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Hugoplate"
+logo_text = "Hackapet"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "GPL work by [Hackapet.](https://hackapet.com) Based on MIT template by [Zeon Studio.](https://zeon.studio) Open source."
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -37,14 +37,14 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "get a quote"
 link = "contact"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
 include_sections = ["blog"]
 show_image = true
@@ -55,17 +55,23 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
+enable = false
 expire_days = 7
 content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+author = "Hackapet"
 image = "images/og-image.png"
+
+[metadata.en]
+keywords = ["Pet Shelter", "Animal Adoption", "Hackapet", "Animal Welfare", "Open Source", "Shelter Management", "Pet Adoption Platform"]
+description = "Hackapet: An open-source project developing free software solutions to empower animal shelters, streamline pet adoptions, and improve animal welfare."
+
+[metadata.es]
+keywords = ["Refugio de Animales", "Adopción de Mascotas", "Hackapet", "Bienestar Animal", "Código Abierto", "Gestión de Refugios", "Plataforma de Adopción"]
+description = "Hackapet: Un proyecto de código abierto que desarrolla soluciones de software gratuitas para empoderar refugios de animales, agilizar adopciones y mejorar el bienestar animal."
 
 
 # site verifications
