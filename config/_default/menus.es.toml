@@ -2,62 +2,28 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "Inicio"
 pageRef = "/"
 weight = 1
 
 [[main]]
-name = "About"
-pageRef = "/about"
+name = "Sobre Nosotros"
+pageRef = "sobre-nosotros"
 weight = 2
 
 [[main]]
-name = "Elements"
-pageRef = "/elements"
-weight = 3
-
-[[main]]
-weight = 4
-name = "Pages"
-
-[[main]]
-parent = "Pages"
 name = "Blog"
-pageRef = "/blog"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
-pageRef = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-pageRef = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-pageRef = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-pageRef = "/404"
+pageRef = "blog"
+weight = 3
 
 
 # footer menu
 [[footer]]
-name = "About"
-pageRef = "/about"
+name = "Sobre Nosotros"
+pageRef = "sobre-nosotros"
 weight = 1
 
 [[footer]]
-name = "Elements"
-pageRef = "/elements"
-weight = 2
-
-[[footer]]
-name = "Privacy Policy"
-pageRef = "/privacy-policy"
+name = "Pólitica Privacidad"
+pageRef = "politica-privacidad"
 weight = 3
