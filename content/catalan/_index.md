@@ -1,68 +1,66 @@
 ---
-# Bàner
+# Pancarta
 banner:
-  title: "Solucions de programari sense ànim de lucre per a Protectores d'Animals"
-  content: "Hackapet és un projecte gratuït i de codi obert que desenvolupa solucions de programari per a optimitzar les operacions dels refugis d'animals i facilitar les adopcions de mascotes."
+  title: "Programari per a protectores d'animals"
+  content: "Eines digitals de codi obert per a optimitzar la gestió de refugis i impulsar adopcions."
   image: "/images/banner.png"
   button:
-    enable: false
-    label: "Uneix-te al Projecte"
-    link: "contacte"
-
+    enable: true
+    label: "Saber més"
+    link: "#features"
+    scroll: true
 
 features:
   - title: "El que Ofereix Hackapet"
     image: "/images/service-1.png"
-    content: "Hackapet proporciona un conjunt complet d'eines dissenyades per a donar suport als refugis d'animals en les seues operacions diàries i processos d'adopció."
+    content: "Hackapet proporciona un conjunt integral de solucions dissenyades per a millorar les operacions diàries dels refugis d'animals i agilitzar els processos d'adopció."
     bulletpoints:
-      - "Sistema de gestió de refugis per a un manteniment eficient de registres"
-      - "Plataforma d'adopció en línia per a connectar mascotes amb possibles adoptants"
-      - "Eines de seguiment post-adopció per a garantir el benestar animal"
-      - "Interfície compatible amb dispositius mòbils per a accés en qualsevol moment"
-      - "**Codi lliure i gratuït** perquè tots els refugis d'animals el puguen usar i personalitzar"
+      - "Sistema de gestió per a un maneig eficient de registres i dades"
+      - "Plataforma en línia que connecta mascotes amb adoptants potencials"
+      - "Eines per al seguiment post-adopció, assegurant el benestar animal"
+      - "Interfície mòbil per a accés fàcil i ràpid des de qualsevol lloc"
+      - "**Codi obert i gratuït**, disponible per a personalització per qualsevol refugi"
     button:
       enable: false
       label: "Més Informació"
       link: "#"
 
-
   - title: "Un Projecte Altruista per al Benestar Animal"
     image: "/images/service-2.png"
-    content: "Hackapet és un projecte sense ànim de lucre, desenvolupat en col·laboració directa amb protectores d'animals de Torrent i València, enfocat a millorar la vida dels animals i facilitar la tasca dels refugis:"
+    content: "Hackapet, desenvolupat en col·laboració amb protectores de Torrent i València, és una iniciativa sense ànim de lucre enfocada a millorar la vida dels animals en refugis i facilitar el treball dels cuidadors."
     bulletpoints:
-      - "Desenvolupat de forma altruista per voluntaris apassionats per la tecnologia i el benestar animal"
-      - "Dissenyat en estreta col·laboració amb protectores locals per a abordar les seues necessitats reals"
-      - "Totalment gratuït i de codi obert, permetent el seu ús i adaptació per qualsevol refugi"
-      - "Centrat en l'eficiència perquè els refugis puguen dedicar més temps a la cura animal"
-      - "Evoluciona constantment gràcies al feedback de les protectores i la comunitat"
+      - "Creat altruistament per voluntaris apassionats per la tecnologia i el benestar animal"
+      - "Desenvolupat en estreta cooperació amb protectores locals per a abordar les seues necessitats específiques"
+      - "Gratuït i de codi obert, permetent el seu ús i adaptació lliure"
+      - "Orientat a l'eficiència, alliberant temps per a l'atenció directa als animals"
+      - "Evoluciona contínuament gràcies als suggeriments de protectores i la comunitat"
     button:
       enable: true
       label: "Coneix Més"
-      link: "/val/sobre-nosaltres"
+      link: "sobre-nosaltres"
 
   - title: "Impacte Real en la Comunitat"
     image: "/images/service-3.png"
-    content: "Hackapet naix del compromís de millorar la vida dels animals en refugis, treballant mà a mà amb protectores de Torrent i València."
+    content: "Hackapet naix amb el propòsit de transformar la vida dels animals en refugis, col·laborant estretament amb les protectores de Torrent i València."
     bulletpoints:
-      - "Creat per i per a la comunitat de protecció animal, sense fins comercials"
-      - "Adaptat a les necessitats específiques dels refugis locals de Torrent i València"
-      - "Facilita la connexió entre animals i adoptants, augmentant les possibilitats d'adopció"
-      - "Redueix la càrrega administrativa dels refugis, permetent més atenció directa als animals"
+      - "Desenvolupat amb i per a la comunitat de protecció animal, sense fins comercials"
+      - "Personalitzat per a cobrir les necessitats específiques dels refugis de Torrent i València"
+      - "Potencia l'adopció en connectar de manera eficaç a mascotes amb adoptants"
+      - "Minimitza la càrrega administrativa, permetent major enfocament en la cura dels animals"
     button:
       enable: true
       label: "Uneix-te a la Nostra Causa"
-      link: "/val/colabora"
+      link: "col·labora"
 
   - title: "Col·laboracions i Suport"
     image: "/images/sponsors.png"
-    content: "Hackapet es desenvolupa gràcies a la col·laboració amb [ADAT - Associació de Defensa Animal de Torrent](https://adat.protecms.com/) i [SOS Peludetes](https://www.facebook.com/p/Sos-Peludetes-Protectora-de-animals-100079284439979/) de Torrent (pots fer clic en els noms i t'enllaçarà al seu lloc web) i el suport de [Hackerspace València](https://hackvlc.es), que ens proporciona l'espai, les eines i altres recursos necessaris per complir la nostra missió."
+    content: "Hackapet es desenvolupa gràcies a la col·laboració amb [ADAT - Associació de Defensa Animal de Torrent](https://adat.protecms.com/) i [SOS Peludetes](https://www.facebook.com/p/Sos-Peludetes-Protectora-de-animales-100079284439979/) de Torrent (pots fer clic en els noms i et portarà al seu lloc web) i el suport del [Hackerspace València](https://hackvlc.es), que ens proporciona l'espai, les eines i altres recursos necessaris per a complir la nostra missió."
     bulletpoints:
       - "Impulsat per i per a la comunitat de protecció animal, sense ànim de lucre"
       - "Adaptat a les necessitats particulars dels refugis locals"
-      - "Gràcies als refugis locals que ens han ajudat amb el seu valuós temps i esforç per poder començar a desenvolupar aquestes plataformes."
+      - "Gràcies a les protectores locals que ens han ajudat pel seu valuós temps i esforç que ens han donat per a poder començar a desenvolupar aquestes plataformes."
     button:
       enable: false
-      label: "Uneix-te a la nostra Causa"
-      link: "/val/colabora"
-
+      label: "Uneix-te a la Nostra Causa"
+      link: "col·labora"
 ---
