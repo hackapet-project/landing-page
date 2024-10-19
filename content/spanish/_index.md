@@ -1,13 +1,14 @@
 ---
 # Banner
 banner:
-  title: "Soluciones de software sin ánimo de lucro para Protectoras de Animales"
-  content: "Hackapet es un proyecto gratuito y de código abierto que desarrolla herramientas digitales para optimizar la gestión en refugios de animales y facilitar las adopciones."
+  title: "Software para protectoras de animales"
+  content: "Herramientas digitales de código abierto para optimizar la gestión de refugios e impulsar adopciones."
   image: "/images/banner.png"
   button:
-    enable: false
-    label: "Únete al Proyecto"
-    link: "contacto"
+    enable: true
+    label: "Saber más"
+    link: "#features"
+    scroll: true
 
 features:
   - title: "Lo que Ofrece Hackapet"
@@ -36,7 +37,7 @@ features:
     button:
       enable: true
       label: "Conoce Más"
-      link: "sobre-nosaltres"
+      link: "sobre-nosotros"
 
   - title: "Impacto Real en la Comunidad"
     image: "/images/service-3.png"
