@@ -13,7 +13,7 @@ weight = 2
 
 [[main]]
 name = "Colabora"
-pageRef = "colabora"
+pageRef = "collaborate"
 weight = 3
 
 
