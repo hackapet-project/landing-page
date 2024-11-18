@@ -1,14 +1,9 @@
 {
   "main": [
     {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/hackapet"
-    },
-    {
       "name": "github",
       "icon": "fab fa-github",
-      "link": "https://www.github.com/hackapet"
+      "link": "https://www.github.com/hackapet-project"
     },
     {
       "name": "linkedin",
