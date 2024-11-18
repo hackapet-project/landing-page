@@ -37,7 +37,7 @@ Si trabajas o colaboras en un refugio de animales, considera integrar Hackapet e
 
 ## 6. Contacto
 
-¿Interesado/a en colaborar? ¡Nos encantaría saber de ti! Puedes ponerte en contacto con nosotros a través de [info@hackapet.com](mailto:info@hackapet.com) o seguirnos en nuestras redes sociales para estar al tanto de las últimas novedades y oportunidades de colaboración.
+¿Interesado/a en colaborar? ¡Nos encantaría saber de ti! Puedes ponerte en contacto con nosotros a través de [woof@hackapet.org](mailto:woof@hackapet.org) o seguirnos en nuestras redes sociales para estar al tanto de las últimas novedades y oportunidades de colaboración.
 
 ¡Gracias por tu interés en ayudar a mejorar la vida de los animales en refugios!
 

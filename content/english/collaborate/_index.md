@@ -37,6 +37,6 @@ If you work or volunteer at an animal shelter, consider integrating Hackapet int
 
 ## 6. Contact
 
-Interested in collaborating? We would love to hear from you! You can contact us at [info@hackapet.com](mailto:info@hackapet.com) or follow us on our social media to stay updated on the latest news and collaboration opportunities.
+Interested in collaborating? We would love to hear from you! You can contact us at [woof@hackapet.org](mailto:woof@hackapet.org) or follow us on our social media to stay updated on the latest news and collaboration opportunities.
 
 Thank you for your interest in helping to improve the lives of animals in shelters!
