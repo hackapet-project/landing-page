@@ -37,7 +37,7 @@ features:
     button:
       enable: true
       label: "Learn More"
-      link: "about-us"
+      link: "/en/authors"
 
   - title: "Real Impact on the Community"
     image: "/images/service-3.png"
@@ -50,7 +50,7 @@ features:
     button:
       enable: true
       label: "Join Our Cause"
-      link: "collaborate"
+      link: "/en/collaborate"
 
   - title: "Collaborations and Support"
     image: "/images/sponsors.png"

@@ -8,13 +8,13 @@ weight = 1
 
 [[main]]
 name = "Sobre Nosotros"
-pageRef = "sobre-nosotros"
+pageRef = "authors"
 weight = 2
 
-#[[main]]
-#name = "Blog"
-#pageRef = "blog"
-#weight = 3
+[[main]]
+name = "Colabora"
+pageRef = "colabora"
+weight = 3
 
 
 # footer menu

@@ -6,18 +6,18 @@ weight = 1
 
 [[main]]
 name = "Sobre Nosaltres"
-pageRef = "sobre-nosaltres"
+pageRef = "authors"
 weight = 2
 
-#[[main]]
-#name = "Blog"
-#pageRef = "blog"
-#weight = 3
+[[main]]
+name = "Col·labora"
+pageRef = "colabora"
+weight = 3
 
 # menú del peu de pàgina
 [[footer]]
 name = "Sobre Nosaltres"
-pageRef = "sobre-nosaltres"
+pageRef = "authors"
 weight = 1
 
 [[footer]]

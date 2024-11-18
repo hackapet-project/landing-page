@@ -37,7 +37,7 @@ features:
     button:
       enable: true
       label: "Conoce Más"
-      link: "sobre-nosotros"
+      link: "authors"
 
   - title: "Impacto Real en la Comunidad"
     image: "/images/service-3.png"
@@ -50,7 +50,7 @@ features:
     button:
       enable: true
       label: "Únete a Nuestra Causa"
-      link: "colabora"
+      link: "collaborate"
 
   - title: "Colaboraciones y Apoyo"
     image: "/images/sponsors.png"
@@ -62,5 +62,5 @@ features:
     button:
       enable: false
       label: "Únete a Nuestra Causa"
-      link: "colabora"
+      link: "collaborate"
 ---

@@ -37,7 +37,7 @@ features:
     button:
       enable: true
       label: "Coneix Més"
-      link: "sobre-nosaltres"
+      link: "/val/authors"
 
   - title: "Impacte Real en la Comunitat"
     image: "/images/service-3.png"
@@ -50,7 +50,7 @@ features:
     button:
       enable: true
       label: "Uneix-te a la Nostra Causa"
-      link: "col·labora"
+      link: "/val/collaborate"
 
   - title: "Col·laboracions i Suport"
     image: "/images/sponsors.png"
