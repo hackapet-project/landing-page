@@ -1,0 +1,103 @@
+<!-- layouts/partials/volunteer-form.html -->
+<section class="section-sm bg-gradient" id="unete">
+    <div class="container">
+        <div class="row justify-center">
+            <div class="lg:col-8 md:col-10 text-center">
+                <h2 class="mb-4 text-h3">{{ T "volunteerForm.title" }}</h2>
+                <p class="mb-8 text-lg">{{ T "volunteerForm.subtitle" }}</p>
+            </div>
+
+            <div class="lg:col-6 md:col-8">
+                <!-- Form Container -->
+                <form
+                        id="volunteerForm"
+                        class="bg-white dark:bg-darkmode-theme-light rounded-lg p-6 shadow-md"
+                        method="POST"
+                        action="javascript:void(0);"
+                        data-success-message="{{ T "volunteerForm.success" }}"
+                data-error-message="{{ T "volunteerForm.error" }}"
+                data-phone-error-message="{{ T "volunteerForm.phoneError" }}"
+                data-sending-text="{{ T "volunteerForm.sending" }}"
+                >
+                <!-- Message Container -->
+                <div id="formMessage" class="hidden mb-6 p-4 rounded-md text-sm" role="alert"></div>
+
+                <div class="space-y-6">
+                    <!-- Full Name -->
+                    <div class="form-group">
+                        <label for="fullName" class="text-dark dark:text-white font-medium mb-2 block">
+                            {{ T "volunteerForm.fullName" }}
+                        </label>
+                        <input
+                                type="text"
+                                id="fullName"
+                                name="fullName"
+                                required
+                                placeholder="{{ T "volunteerForm.fullNamePlaceholder" }}"
+                        class="w-full px-4 py-3 rounded-md border border-border dark:border-darkmode-border bg-transparent focus:border-primary dark:focus:border-darkmode-primary transition-colors"
+                        >
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email" class="text-dark dark:text-white font-medium mb-2 block">
+                            {{ T "volunteerForm.email" }}
+                        </label>
+                        <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="{{ T "volunteerForm.emailPlaceholder" }}"
+                        class="w-full px-4 py-3 rounded-md border border-border dark:border-darkmode-border bg-transparent focus:border-primary dark:focus:border-darkmode-primary transition-colors"
+                        >
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group">
+                        <label for="phone" class="text-dark dark:text-white font-medium mb-2 block">
+                            {{ T "volunteerForm.phone" }}
+                        </label>
+                        <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                required
+                                placeholder="{{ T "volunteerForm.phonePlaceholder" }}"
+                        class="w-full px-4 py-3 rounded-md border border-border dark:border-darkmode-border bg-transparent focus:border-primary dark:focus:border-darkmode-primary transition-colors font-mono"
+                        >
+                        <small class="text-sm text-gray-600 dark:text-gray-400 mt-1 block">
+                            {{ T "volunteerForm.phoneHelp" }}
+                        </small>
+                    </div>
+
+                    <!-- Motivation -->
+                    <div class="form-group">
+                        <label for="motivation" class="text-dark dark:text-white font-medium mb-2 block">
+                            {{ T "volunteerForm.motivation" }}
+                        </label>
+                        <textarea
+                                id="motivation"
+                                name="motivation"
+                                required
+                                placeholder="{{ T "volunteerForm.motivationPlaceholder" }}"
+                        class="w-full px-4 py-3 rounded-md border border-border dark:border-darkmode-border bg-transparent focus:border-primary dark:focus:border-darkmode-primary transition-colors min-h-[120px] resize-y"
+                        ></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        <button
+                                type="submit"
+                                class="w-full btn btn-primary py-3 text-center font-medium transition-all relative overflow-hidden group"
+                        >
+                            <span class="relative z-10">{{ T "volunteerForm.submit" }}</span>
+                            <div class="absolute inset-0 bg-white/20 transform translate-y-full transition-transform group-hover:translate-y-0"></div>
+                        </button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

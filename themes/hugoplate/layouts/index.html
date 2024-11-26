@@ -80,6 +80,8 @@
 </div>
 <!-- /Features -->
 
+{{ partial "contact-form.html" . }}
+
 <!-- Testimonials -->
 {{ with site.GetPage "sections/testimonial" }}
 {{ if .Params.enable }}

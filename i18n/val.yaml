@@ -12,3 +12,20 @@ search_initial_message: Escriu alguna cosa per cercar...
 search_navigate: per a navegar
 search_select: per a seleccionar
 search_close: per a tancar
+volunteerForm:
+  title: "Vols unir-te?"
+  subtitle: "Uneix-te al nostre equip i ajuda a millorar la vida dels animals en refugis!"
+  fullName: "Nom complet"
+  fullNamePlaceholder: "El teu nom complet"
+  email: "Email"
+  emailPlaceholder: "el.teu.email@exemple.com"
+  phone: "Telèfon"
+  phonePlaceholder: "+34 XXX XXX XXX"
+  phoneHelp: "Format: +34 o número local"
+  motivation: "Per què vols unir-te a Hackapet?"
+  motivationPlaceholder: "Explica'ns per què t'agradaria formar part del nostre equip..."
+  submit: "Enviar Sol·licitud"
+  success: "Gràcies pel teu interès! Hem rebut la teva sol·licitud i t'hem enviat un email de confirmació."
+  error: "Ho sentim, hi ha hagut un error en enviar el formulari. Si us plau, torna-ho a provar més tard."
+  phoneError: "Si us plau, introdueix un número de telèfon vàlid (ex: +34 XXX XXX XXX)"
+  sending: "Enviant..."

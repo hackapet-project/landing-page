@@ -12,3 +12,20 @@ search_initial_message: Escribe algo para buscar...
 search_navigate: para navegar
 search_select: para seleccionar
 search_close: para cerrar
+volunteerForm:
+  title: "¿Quieres unirte?"
+  subtitle: "¡Únete a nuestro equipo y ayuda a mejorar la vida de los animales en refugios!"
+  fullName: "Nombre completo"
+  fullNamePlaceholder: "Tu nombre completo"
+  email: "Email"
+  emailPlaceholder: "tu.email@ejemplo.com"
+  phone: "Teléfono"
+  phonePlaceholder: "+34 XXX XXX XXX"
+  phoneHelp: "Formato: +34 o número local"
+  motivation: "¿Por qué quieres unirte a Hackapet?"
+  motivationPlaceholder: "Cuéntanos por qué te gustaría ser parte de nuestro equipo..."
+  submit: "Enviar Solicitud"
+  success: "¡Gracias por tu interés! Hemos recibido tu solicitud y te hemos enviado un email de confirmación."
+  error: "Lo sentimos, hubo un error al enviar el formulario. Por favor, inténtalo de nuevo más tarde."
+  phoneError: "Por favor, introduce un número de teléfono válido (ej: +34 XXX XXX XXX)"
+  sending: "Enviando..."
