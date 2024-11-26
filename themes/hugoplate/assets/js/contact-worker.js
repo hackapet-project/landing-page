@@ -7,11 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
-    // Add message container after form opening tag
-    const messageContainer = document.createElement('div');
-    messageContainer.id = 'formMessage';
-    messageContainer.className = 'hidden mb-4 p-4 rounded-md text-sm';
-    form.insertBefore(messageContainer, form.firstChild);
+    const messageDiv = document.getElementById('formMessage');
+    const submitButton = form.querySelector('button[type="submit"]');
+    const phoneInput = form.querySelector('#phone');
 
     // Get translated messages from data attributes
     const messages = {
@@ -22,13 +20,12 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     function showMessage(message, isError = false) {
-        const messageDiv = document.getElementById('formMessage');
+        if (!messageDiv) return;
         messageDiv.textContent = message;
         messageDiv.classList.remove('hidden', 'bg-green-100', 'text-green-800', 'bg-red-100', 'text-red-800');
         messageDiv.classList.add(
             isError ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800'
         );
-        // Smooth scroll to message
         messageDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
@@ -48,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Format phone number as user types
-    const phoneInput = form.querySelector('#phone');
     if (phoneInput) {
         phoneInput.addEventListener('input', function (e) {
             let value = e.target.value.replace(/[^\d+\s-]/g, '');
@@ -61,24 +57,24 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    async function handleFormSubmit(e) {
+    async function handleSubmit(e) {
         e.preventDefault();
         e.stopPropagation();
 
-        const submitButton = form.querySelector('button[type="submit"]');
         if (!submitButton) return;
 
-        const originalButtonText = submitButton.innerHTML;
-
         // Clear any existing messages
-        const messageDiv = document.getElementById('formMessage');
-        messageDiv.classList.add('hidden');
+        if (messageDiv) {
+            messageDiv.classList.add('hidden');
+        }
 
         // Validate phone number
         if (!validatePhoneNumber(phoneInput.value)) {
             showMessage(messages.phoneError, true);
             return false;
         }
+
+        const originalButtonText = submitButton.innerHTML;
 
         try {
             submitButton.disabled = true;
@@ -91,6 +87,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 motivation: form.querySelector('#motivation').value.trim()
             };
 
+            console.log('Sending data:', formData); // Debug log
+
             const response = await fetch(WORKER_URL, {
                 method: 'POST',
                 headers: {
@@ -99,18 +97,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 body: JSON.stringify(formData)
             });
 
+            console.log('Response status:', response.status); // Debug log
+
             const result = await response.json();
+            console.log('Response data:', result); // Debug log
 
             if (!response.ok) {
                 throw new Error(result.message || messages.error);
             }
 
-            if (result.success) {
-                showMessage(messages.success);
-                form.reset();
-            } else {
-                throw new Error(result.error || messages.error);
-            }
+            showMessage(messages.success);
+            form.reset();
         } catch (error) {
             console.error('Error:', error);
             showMessage(error.message || messages.error, true);
@@ -122,10 +119,5 @@ document.addEventListener('DOMContentLoaded', function () {
         return false;
     }
 
-    // Remove any existing event listeners
-    const newForm = form.cloneNode(true);
-    form.parentNode.replaceChild(newForm, form);
-
-    // Add the event listener to the new form
-    newForm.addEventListener('submit', handleFormSubmit);
+    form.addEventListener('submit', handleSubmit);
 });
