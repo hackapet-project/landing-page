@@ -1,7 +1,7 @@
 ---
 title: Ignacio Delgado
 email: me@igdel.com
-image: "/images/authors/ignacio-delgado.png"
+image: "/images/authors/ignacio.png"
 description: Perfil de Ignacio Delgado
 summary: Desarrollador Android
 social:
