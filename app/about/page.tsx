@@ -92,7 +92,6 @@ export default function AboutPage() {
               <TabsList className="grid w-full max-w-md grid-cols-3">
                 <TabsTrigger value="team">{t('about.tabs.team')}</TabsTrigger>
                 <TabsTrigger value="mission">{t('about.tabs.mission')}</TabsTrigger>
-                <TabsTrigger value="impact">{t('about.tabs.impact')}</TabsTrigger>
               </TabsList>
             </div>
             
@@ -172,65 +171,6 @@ export default function AboutPage() {
                     />
                   </div>
                 </div>
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="impact">
-              <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">{t('about.impact.title')}</h2>
-                <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                  {t('about.impact.description')}
-                </p>
-              </div>
-              
-              <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="text-4xl font-bold text-primary mb-2">15+</div>
-                    <h3 className="text-xl font-semibold mb-2">{t('about.impact.stat1.title')}</h3>
-                    <p className="text-muted-foreground">{t('about.impact.stat1.description')}</p>
-                  </CardContent>
-                </Card>
-                
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="text-4xl font-bold text-primary mb-2">500+</div>
-                    <h3 className="text-xl font-semibold mb-2">{t('about.impact.stat2.title')}</h3>
-                    <p className="text-muted-foreground">{t('about.impact.stat2.description')}</p>
-                  </CardContent>
-                </Card>
-                
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="text-4xl font-bold text-primary mb-2">30%</div>
-                    <h3 className="text-xl font-semibold mb-2">{t('about.impact.stat3.title')}</h3>
-                    <p className="text-muted-foreground">{t('about.impact.stat3.description')}</p>
-                  </CardContent>
-                </Card>
-                
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="text-4xl font-bold text-primary mb-2">20+</div>
-                    <h3 className="text-xl font-semibold mb-2">{t('about.impact.stat4.title')}</h3>
-                    <p className="text-muted-foreground">{t('about.impact.stat4.description')}</p>
-                  </CardContent>
-                </Card>
-                
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="text-4xl font-bold text-primary mb-2">3</div>
-                    <h3 className="text-xl font-semibold mb-2">{t('about.impact.stat5.title')}</h3>
-                    <p className="text-muted-foreground">{t('about.impact.stat5.description')}</p>
-                  </CardContent>
-                </Card>
-                
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="text-4xl font-bold text-primary mb-2">100%</div>
-                    <h3 className="text-xl font-semibold mb-2">{t('about.impact.stat6.title')}</h3>
-                    <p className="text-muted-foreground">{t('about.impact.stat6.description')}</p>
-                  </CardContent>
-                </Card>
               </div>
             </TabsContent>
           </Tabs>
