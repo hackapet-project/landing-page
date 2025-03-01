@@ -89,7 +89,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Tabs defaultValue="team" value={activeTab} onValueChange={setActiveTab} className="w-full">
             <div className="flex justify-center mb-8">
-              <TabsList className="grid w-full max-w-md grid-cols-3">
+              <TabsList className="grid w-full max-w-md grid-cols-2">
                 <TabsTrigger value="team">{t('about.tabs.team')}</TabsTrigger>
                 <TabsTrigger value="mission">{t('about.tabs.mission')}</TabsTrigger>
               </TabsList>
