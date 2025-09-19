@@ -14,7 +14,7 @@ const teamMembers = [
     role: 'UX/UI Designer',
     image: 'https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80',
     social: [
-      { icon: <Linkedin className="h-5 w-5" />, url: 'https://linkedin.com' },
+      { icon: <Linkedin className="h-5 w-5" />, url: 'https://www.linkedin.com/in/carolinabeatriz/' },
     ],
   },
   {
@@ -22,9 +22,9 @@ const teamMembers = [
     role: 'FullStack Developer',
     image: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80',
     social: [
-      { icon: <Github className="h-5 w-5" />, url: 'https://github.com' },
-      { icon: <Globe className="h-5 w-5" />, url: 'https://example.com' },
-      { icon: <Linkedin className="h-5 w-5" />, url: 'https://linkedin.com' },
+      { icon: <Github className="h-5 w-5" />, url: 'https://github.com/drejon' },
+      { icon: <Globe className="h-5 w-5" />, url: 'https://drejon.com/' },
+      { icon: <Linkedin className="h-5 w-5" />, url: 'https://www.linkedin.com/in/diego-alejandro-rej%C3%B3n-clemente-151065177/' },
     ],
   },
   {
@@ -32,7 +32,7 @@ const teamMembers = [
     role: 'Lead UX/UI Designer',
     image: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80',
     social: [
-      { icon: <Linkedin className="h-5 w-5" />, url: 'https://linkedin.com' },
+      { icon: <Linkedin className="h-5 w-5" />, url: 'https://www.linkedin.com/in/empar-sc/' },
     ],
   },
   {
@@ -41,7 +41,7 @@ const teamMembers = [
     image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80',
     social: [
       { icon: <Github className="h-5 w-5" />, url: 'https://github.com' },
-      { icon: <Linkedin className="h-5 w-5" />, url: 'https://linkedin.com' },
+      { icon: <Linkedin className="h-5 w-5" />, url: 'https://www.linkedin.com/in/felipe-gadea-llopis/' },
     ],
   },
   {
